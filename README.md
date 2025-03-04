@@ -9,7 +9,7 @@ This software is designed for ease of use without the need for a complicated ins
 **How to Start:**  
 1. Download the `.tar.gz` file.
 2. Extract the contents to a desired location.  
-3. Run the `citrus` to start the software.
+3. Run the `glycine` to start the software.
 
 ## Authors
 夏小双 Xiaoshuang Xia (xiaxiaoshuang@genomics.cn)  
