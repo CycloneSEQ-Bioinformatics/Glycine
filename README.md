@@ -14,7 +14,6 @@ This software is designed for ease of use without the need for a complicated ins
 **Note:** glibc version 2.35 or higher is required.
 
 ## Example Usage
-**Single-end barcode splitting**  
 `glycine -f sample.fq.gz -5 tso-seq -3 rtp-seq -o /path/to/output -n sample -e 0.25,0.4 -s 100,100 -u 10 -l 10`  
 
 ## Command-line Arguments
