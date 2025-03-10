@@ -1,3 +1,4 @@
+![image](https://github.com/user-attachments/assets/dcf1e72e-a2c4-4e0e-89a8-617075696e2d)
 # Glycine
 This tool is designed to identify and trim full-length cDNA sequencing reads.  
 
