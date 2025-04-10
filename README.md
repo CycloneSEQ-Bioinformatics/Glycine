@@ -12,8 +12,6 @@ This software is designed for ease of use without the need for a complicated ins
 2. Extract the contents to a desired location.  
 3. Run the `glycine` to start the software.
 
-**Note:** glibc version 2.35 or higher is required.
-
 ## Example Usage
 `glycine -f sample.fq.gz -5 tso-seq -3 rtp-seq -o /path/to/output -n sample -e 0.25,0.4 -s 100,100 -u 10 -l 10`  
 
@@ -41,6 +39,12 @@ Options:
   -h, --help                     Print help
   -V, --version                  Print version
 ```
+
+## Versions
+This tool offers two versions:  
+**Glibc version:** Provides optimized performance but requires `glibc` version 2.35 or newer on your system.  
+**Musl version:** Designed for compatibility on x86_64 Linux servers, offering a reliable alternative with slightly reduced performance compared to the `glibc` build.  
+Please choose the version that best suits your system's environment and performance needs.  
 
 ## Authors
 夏小双 Xiaoshuang Xia (xiaxiaoshuang@genomics.cn)  
