@@ -42,8 +42,8 @@ Options:
 
 ## Versions
 This tool offers two versions:  
-**Glibc version:** Provides optimized performance but requires `glibc` version 2.35 or newer on your system.  
-**Musl version:** Designed for compatibility on x86_64 Linux servers, offering a reliable alternative with slightly reduced performance compared to the `glibc` build.  
+**GNU version:** Provides optimized performance but requires `glibc` version 2.35 or newer on your system.  
+**musl version:** Designed for compatibility on x86_64 Linux servers, offering a reliable alternative with slightly reduced performance compared to the `glibc` build.  
 Please choose the version that best suits your system's environment and performance needs.  
 
 ## Authors
