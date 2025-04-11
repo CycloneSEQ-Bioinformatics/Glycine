@@ -5,7 +5,7 @@ This tool is designed to identify and trim full-length cDNA sequencing reads.
 ## No Installation Required  
 **Ready to Use After Extraction**  
 
-This software is designed for ease of use without the need for a complicated installation process. Simply extract the contents of the software package to your preferred location on your system, and it's ready to go.  
+This tool is designed for ease of use without the need for a complicated installation process. Simply extract the contents of the software package to your preferred location on your system, and it's ready to go.  
 
 **How to Start:**  
 1. Download the `.tar.gz` file.
@@ -45,6 +45,9 @@ This tool offers two versions:
 **GNU version:** Provides optimized performance but requires `glibc` version 2.35 or newer on your system.  
 **musl version:** Designed for compatibility on x86_64 Linux servers, offering a reliable alternative with slightly reduced performance compared to the `glibc` build.  
 Please choose the version that best suits your system's environment and performance needs.  
+The chart below compares the memory usage of two versions over time, for a 10.87 GB dataset processed using 4 threads.  
+![memory_usage](https://github.com/user-attachments/assets/35cc7ff9-a810-47d8-87b9-6beff754ed16)
+
 
 ## Authors
 夏小双 Xiaoshuang Xia (xiaxiaoshuang@genomics.cn)  
