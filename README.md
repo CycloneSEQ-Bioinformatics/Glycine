@@ -13,7 +13,7 @@ This tool is designed for ease of use without the need for a complicated install
 3. Run the `glycine` to start the software.
 
 ## Example Usage
-`glycine -f sample.fq.gz -5 tso-seq -3 rtp-seq -o /path/to/output -n sample -e 0.25,0.4 -s 100,100 -u 10 -l 10`  
+`glycine -f sample.fq.gz -5 tso-seq -3 rtp-seq -o /path/to/output -n sample -e 0.25,0.25 -s 100,100 -u 0 -l 10`  
 
 ## Command-line Arguments
 ```
